@@ -1,0 +1,14 @@
+#!/usr/bin/python
+
+def letfind():
+  name  = input("Please type the word to find a")
+  if "a" in name:
+      print "Yes"
+  else:
+      print "NO"
+
+
+
+letfind()
+
+

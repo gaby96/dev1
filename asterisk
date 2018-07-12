@@ -1,0 +1,12 @@
+#!/usr/bin/python
+from __future__ import print_function
+
+def asterisk():
+   for i in range (0,4):
+    for j  in range (0,4):
+     print ("*", end= " ")
+    print(" ")
+   print("\r")
+
+
+asterisk()

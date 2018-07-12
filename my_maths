@@ -1,0 +1,22 @@
+#! /usr/bin/python
+def calculate(str,a,b):
+    if str=="ADD":
+     str = a + b
+
+    elif str=="SUBTRACT":
+     str = a - b
+
+    elif str=="MULTIPLY":
+     str = a * b
+
+    elif str=="DIVIDE":
+     str = a / b
+
+    return str
+  
+
+print(calculate("SUBTRACT",3,4))
+
+
+
+

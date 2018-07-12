@@ -1,0 +1,9 @@
+#! /usr/bin/python
+
+
+def evens():
+   for j in range(0,20):
+     if(j%2 == 0):
+        print(j)
+
+evens()

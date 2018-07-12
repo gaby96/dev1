@@ -1,0 +1,17 @@
+#!/usr/bin/python
+from __future__ import print_function
+
+def asterisk():
+   #the  outer loop controls the rows 
+   for i in range (0,7):
+  #the inner loop controls the columns
+    for j  in range (0,i+1):
+     print ("*", end= " ")
+    print(" ")
+   print("\r")
+
+
+asterisk()
+
+    
+
